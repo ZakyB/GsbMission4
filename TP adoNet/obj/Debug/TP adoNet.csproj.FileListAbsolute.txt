@@ -1,0 +1,80 @@
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\bin\Debug\TP adoNet.exe.config
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\bin\Debug\TP adoNet.exe
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\bin\Debug\TP adoNet.pdb
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csprojAssemblyReference.cache
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\obj\Debug\TP_adoNet.Form1.resources
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\obj\Debug\TP_adoNet.Properties.Resources.resources
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.GenerateResource.cache
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.CoreCompileInputs.cache
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\obj\Debug\TP adoNet.exe
+C:\Users\etudiant\source\repos\TP adoNet\TP adoNet\obj\Debug\TP adoNet.pdb
+E:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csprojAssemblyReference.cache
+E:\TP adoNet\TP adoNet\obj\Debug\TP_adoNet.Form1.resources
+E:\TP adoNet\TP adoNet\obj\Debug\TP_adoNet.Properties.Resources.resources
+E:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.GenerateResource.cache
+E:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.CoreCompileInputs.cache
+E:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.exe
+E:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.pdb
+E:\TP adoNet\TP adoNet\bin\Debug\TP adoNet.exe.config
+E:\TP adoNet\TP adoNet\bin\Debug\TP adoNet.exe
+E:\TP adoNet\TP adoNet\bin\Debug\TP adoNet.pdb
+E:\TP adoNet\TP adoNet\bin\Debug\BouncyCastle.Crypto.dll
+E:\TP adoNet\TP adoNet\bin\Debug\Google.Protobuf.dll
+E:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.dll
+E:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\TP adoNet\TP adoNet\bin\Debug\K4os.Hash.xxHash.dll
+E:\TP adoNet\TP adoNet\bin\Debug\MySql.Data.dll
+E:\TP adoNet\TP adoNet\bin\Debug\Renci.SshNet.dll
+E:\TP adoNet\TP adoNet\bin\Debug\System.Buffers.dll
+E:\TP adoNet\TP adoNet\bin\Debug\System.Memory.dll
+E:\TP adoNet\TP adoNet\bin\Debug\System.Numerics.Vectors.dll
+E:\TP adoNet\TP adoNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\TP adoNet\TP adoNet\bin\Debug\Ubiety.Dns.Core.dll
+E:\TP adoNet\TP adoNet\bin\Debug\Zstandard.Net.dll
+E:\TP adoNet\TP adoNet\bin\Debug\Google.Protobuf.pdb
+E:\TP adoNet\TP adoNet\bin\Debug\Google.Protobuf.xml
+E:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.xml
+E:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\TP adoNet\TP adoNet\bin\Debug\K4os.Hash.xxHash.xml
+E:\TP adoNet\TP adoNet\bin\Debug\MySql.Data.xml
+E:\TP adoNet\TP adoNet\bin\Debug\Renci.SshNet.xml
+E:\TP adoNet\TP adoNet\bin\Debug\System.Buffers.xml
+E:\TP adoNet\TP adoNet\bin\Debug\System.Memory.xml
+E:\TP adoNet\TP adoNet\bin\Debug\System.Numerics.Vectors.xml
+E:\TP adoNet\TP adoNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.CopyComplete
+D:\TP adoNet\TP adoNet\bin\Debug\TP adoNet.exe.config
+D:\TP adoNet\TP adoNet\bin\Debug\TP adoNet.exe
+D:\TP adoNet\TP adoNet\bin\Debug\TP adoNet.pdb
+D:\TP adoNet\TP adoNet\bin\Debug\BouncyCastle.Crypto.dll
+D:\TP adoNet\TP adoNet\bin\Debug\Google.Protobuf.dll
+D:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.dll
+D:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\TP adoNet\TP adoNet\bin\Debug\K4os.Hash.xxHash.dll
+D:\TP adoNet\TP adoNet\bin\Debug\MySql.Data.dll
+D:\TP adoNet\TP adoNet\bin\Debug\Renci.SshNet.dll
+D:\TP adoNet\TP adoNet\bin\Debug\System.Buffers.dll
+D:\TP adoNet\TP adoNet\bin\Debug\System.Memory.dll
+D:\TP adoNet\TP adoNet\bin\Debug\System.Numerics.Vectors.dll
+D:\TP adoNet\TP adoNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TP adoNet\TP adoNet\bin\Debug\Ubiety.Dns.Core.dll
+D:\TP adoNet\TP adoNet\bin\Debug\Zstandard.Net.dll
+D:\TP adoNet\TP adoNet\bin\Debug\Google.Protobuf.pdb
+D:\TP adoNet\TP adoNet\bin\Debug\Google.Protobuf.xml
+D:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.xml
+D:\TP adoNet\TP adoNet\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\TP adoNet\TP adoNet\bin\Debug\K4os.Hash.xxHash.xml
+D:\TP adoNet\TP adoNet\bin\Debug\MySql.Data.xml
+D:\TP adoNet\TP adoNet\bin\Debug\Renci.SshNet.xml
+D:\TP adoNet\TP adoNet\bin\Debug\System.Buffers.xml
+D:\TP adoNet\TP adoNet\bin\Debug\System.Memory.xml
+D:\TP adoNet\TP adoNet\bin\Debug\System.Numerics.Vectors.xml
+D:\TP adoNet\TP adoNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csprojAssemblyReference.cache
+D:\TP adoNet\TP adoNet\obj\Debug\TP_adoNet.Form1.resources
+D:\TP adoNet\TP adoNet\obj\Debug\TP_adoNet.Properties.Resources.resources
+D:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.GenerateResource.cache
+D:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.CoreCompileInputs.cache
+D:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.csproj.CopyComplete
+D:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.exe
+D:\TP adoNet\TP adoNet\obj\Debug\TP adoNet.pdb
