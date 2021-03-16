@@ -16,10 +16,11 @@ namespace TP_adoNet
         private string unProvider = "127.0.0.1";
         private string dataBase = "gsb";
         private string uId = "root";
-        private string mdp = "root";
+        private string mdp = "";
         private String id;
         private MySqlCommand oCom;
         private ConnexionSql maConnexion;
+        private GestionDate date = new GestionDate();
 
         public Form1()
         {
@@ -51,87 +52,53 @@ namespace TP_adoNet
             maConnexion.closeConnection();
             return dt;
         }
+        private DataTable GetListeMois()
+        {
+            DataTable dt = new DataTable();
+            maConnexion.openConnection();
+            oCom = maConnexion.reqExec("SELECT DISTINCT mois FROM `fichefrais` ORDER BY mois");
+
+            MySqlDataReader reader = oCom.ExecuteReader();
+            dt.Load(reader);
+            maConnexion.closeConnection();
+            return dt;
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = GetEmploye();
-
+            comboBox1.DataSource = GetListeMois();
+            comboBox1.DisplayMember = "mois";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox2.Text) || String.IsNullOrEmpty(textBox3.Text))
-            {
-                string message = "Il manque une ou plusieurs valeurs";
-                string caption = "Erreur détecté";
-                MessageBoxButtons buttons = MessageBoxButtons.OK;
-                DialogResult result;
-                result = MessageBox.Show(message, caption, buttons);
-            }
-            else
-            {
-                maConnexion.openConnection();
-                String req = "UPDATE `employe` SET `nom`='" + textBox1.Text + "',`prenom`='" + textBox2.Text + "',`salaire`='" + textBox3.Text + "' WHERE id = " + id;
-                oCom = maConnexion.reqExec(req);
-                oCom.ExecuteNonQuery();
-                maConnexion.closeConnection();
-                dataGridView1.DataSource = GetEmploye();
-            }
-        
+            string tardigrade = date.getMois();
+            String req = "SELECT * FROM `fichefrais` WHERE mois like '" + tardigrade+"'";
+            DataTable dt = new DataTable();
+            maConnexion.openConnection();
+            oCom = maConnexion.reqExec(req);
+            MySqlDataReader reader = oCom.ExecuteReader();
+
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
+            maConnexion.closeConnection();
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox2.Text) || String.IsNullOrEmpty(textBox3.Text))
-            {
-                string message = "Il manque une ou plusieurs valeurs";
-                string caption = "Erreur détecté";
-                MessageBoxButtons buttons = MessageBoxButtons.OK;
-                DialogResult result;
-                result = MessageBox.Show(message, caption, buttons);
-            }
-            else
-            {
-                maConnexion.openConnection();
-                String req = "DELETE FROM `employe` WHERE id="+id;
-                oCom = maConnexion.reqExec(req);
-                oCom.ExecuteNonQuery();
-                maConnexion.closeConnection();
-                dataGridView1.DataSource = GetEmploye();
-            }
+            string tardigrade = date.getMois();
+            String req = "SELECT * FROM `fichefrais` WHERE mois like '" + comboBox1.Text + "'";
+            DataTable dt = new DataTable();
+            maConnexion.openConnection();
+            oCom = maConnexion.reqExec(req);
+            MySqlDataReader reader = oCom.ExecuteReader();
 
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            if (String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox2.Text) || String.IsNullOrEmpty(textBox3.Text))
-            {
-                string message = "Il manque une ou plusieurs valeurs";
-                string caption = "Erreur détecté";
-                MessageBoxButtons buttons = MessageBoxButtons.OK;
-                DialogResult result;
-                result = MessageBox.Show(message, caption, buttons);
-            }
-            else
-            {
-                maConnexion.openConnection();
-                String req = "INSERT INTO `employe`(`nom`, `prenom`, `salaire`) VALUES('"+textBox1.Text+"','"+textBox2.Text+"','"+textBox3.Text+"');";
-                oCom = maConnexion.reqExec(req);
-                oCom.ExecuteNonQuery();
-                maConnexion.closeConnection();
-                dataGridView1.DataSource = GetEmploye();
-            }
-
-        }
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-            DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
-            id = row.Cells[0].Value.ToString();
-            textBox1.Text = row.Cells[1].Value.ToString();
-            textBox2.Text = row.Cells[2].Value.ToString();
-            textBox3.Text = row.Cells[3].Value.ToString();
+            dt.Load(reader);
+            dataGridView1.DataSource = dt;
+            maConnexion.closeConnection();
         }
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)

@@ -33,3 +33,38 @@ D:\Documents\GSB\TP adoNet\obj\Debug\GSB.csproj.CoreCompileInputs.cache
 D:\Documents\GSB\TP adoNet\obj\Debug\GSB.csproj.CopyComplete
 D:\Documents\GSB\TP adoNet\obj\Debug\TP adoNet.exe
 D:\Documents\GSB\TP adoNet\obj\Debug\TP adoNet.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\TP adoNet.exe.config
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\TP adoNet.exe
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\TP adoNet.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\Google.Protobuf.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\MySql.Data.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\Renci.SshNet.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Buffers.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Memory.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\Zstandard.Net.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\Google.Protobuf.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\Google.Protobuf.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\MySql.Data.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\Renci.SshNet.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Buffers.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Memory.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\GSB.csprojAssemblyReference.cache
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\TP_adoNet.Form1.resources
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\TP_adoNet.Properties.Resources.resources
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\GSB.csproj.GenerateResource.cache
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\GSB.csproj.CoreCompileInputs.cache
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\GSB.csproj.CopyComplete
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\TP adoNet.exe
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\obj\Debug\TP adoNet.pdb
