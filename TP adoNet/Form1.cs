@@ -21,6 +21,7 @@ namespace TP_adoNet
         private MySqlCommand oCom;
         private ConnexionSql maConnexion;
         private GestionDate date = new GestionDate();
+        private string dateActuel;
 
         public Form1()
         {
@@ -73,8 +74,8 @@ namespace TP_adoNet
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string tardigrade = date.getMois();
-            String req = "SELECT * FROM `fichefrais` WHERE mois like '" + tardigrade+"'";
+            dateActuel = date.getMois();
+            String req = "SELECT * FROM `fichefrais` WHERE mois like '" + dateActuel + "'";
             DataTable dt = new DataTable();
             maConnexion.openConnection();
             oCom = maConnexion.reqExec(req);
@@ -83,14 +84,13 @@ namespace TP_adoNet
             dt.Load(reader);
             dataGridView1.DataSource = dt;
             maConnexion.closeConnection();
-
-
+            label1.Text = dateActuel;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string tardigrade = date.getMois();
-            String req = "SELECT * FROM `fichefrais` WHERE mois like '" + comboBox1.Text + "'";
+            dateActuel = comboBox1.Text;
+            String req = "SELECT * FROM `fichefrais` WHERE mois like '" + dateActuel + "'";
             DataTable dt = new DataTable();
             maConnexion.openConnection();
             oCom = maConnexion.reqExec(req);
@@ -99,6 +99,7 @@ namespace TP_adoNet
             dt.Load(reader);
             dataGridView1.DataSource = dt;
             maConnexion.closeConnection();
+            label1.Text = dateActuel;
         }
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
@@ -106,6 +107,42 @@ namespace TP_adoNet
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
             {
                 e.Handled = true;
+            }
+        }
+
+        private void button3_click(object sender, EventArgs e)
+        {
+            if (!date.Equals(""))
+            {
+                dateActuel = date.getMoisPrecedant(dateActuel);
+                String req = "SELECT * FROM `fichefrais` WHERE mois like '" + dateActuel + "'";
+                DataTable dt = new DataTable();
+                maConnexion.openConnection();
+                oCom = maConnexion.reqExec(req);
+                MySqlDataReader reader = oCom.ExecuteReader();
+
+                dt.Load(reader);
+                dataGridView1.DataSource = dt;
+                maConnexion.closeConnection();
+                label1.Text = dateActuel;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (!date.Equals(""))
+            {
+                dateActuel = date.getMoisSuivant(dateActuel);
+                String req = "SELECT * FROM `fichefrais` WHERE mois like '" + dateActuel + "'";
+                DataTable dt = new DataTable();
+                maConnexion.openConnection();
+                oCom = maConnexion.reqExec(req);
+                MySqlDataReader reader = oCom.ExecuteReader();
+
+                dt.Load(reader);
+                dataGridView1.DataSource = dt;
+                maConnexion.closeConnection();
+                label1.Text = dateActuel;
             }
         }
     }

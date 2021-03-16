@@ -14,11 +14,18 @@ namespace TP_adoNet
             var pouet = mois.Date.ToString("yyyyMM");
             return pouet;
         }
-        public String getMoisPrecedant()
+        public String getMoisPrecedant(String date)
         {
-            var mois = DateTime.Now;
-            var pouet = mois.AddMonths(-1).ToString("yyyyMM");
-            return pouet;
+            DateTime odate = DateTime.ParseExact(date, "yyyyMM", null);
+            String test = odate.Date.AddMonths(-1).ToString("yyyyMM");
+            return test;
         }
+        public String getMoisSuivant(String date)
+        {
+            DateTime odate = DateTime.ParseExact(date, "yyyyMM", null);
+            String test = odate.Date.AddMonths(1).ToString("yyyyMM");
+            return test;
+        }
+
     }
 }
