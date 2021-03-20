@@ -31,9 +31,9 @@ namespace TP_adoNet
         private DataTable GetEmploye()
         {
             DataTable dt = new DataTable();
-            maConnexion.openConnection();
+           
             oCom = maConnexion.reqExec("Select * from fichefrais");
-            
+            maConnexion.openConnection();
             MySqlDataReader reader = oCom.ExecuteReader();
            
             dt.Load(reader);

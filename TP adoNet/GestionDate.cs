@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP_adoNet
 {
-    class GestionDate
+    public class GestionDate
     {
         public String getMois()
         {
