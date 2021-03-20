@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\GSBTest\\GSBTest.csproj": {}
+    "D:\\Documents\\GSB\\GsbMission4\\GSBTest\\GSBTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\GSBTest\\GSBTest.csproj": {
+    "D:\\Documents\\GSB\\GsbMission4\\GSBTest\\GSBTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\GSBTest\\GSBTest.csproj",
+        "projectUniqueName": "D:\\Documents\\GSB\\GsbMission4\\GSBTest\\GSBTest.csproj",
         "projectName": "GSBTest",
-        "projectPath": "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\GSBTest\\GSBTest.csproj",
-        "packagesPath": "C:\\Users\\Necrogod492\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\GSBTest\\obj\\",
+        "projectPath": "D:\\Documents\\GSB\\GsbMission4\\GSBTest\\GSBTest.csproj",
+        "packagesPath": "C:\\Users\\BENRABAH Zaky\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GSB\\GsbMission4\\GSBTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Necrogod492\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BENRABAH Zaky\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,10 +26,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\TP adoNet\\GSB.csproj": {
-                "projectPath": "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\TP adoNet\\GSB.csproj"
+              "D:\\Documents\\GSB\\GsbMission4\\TP adoNet\\GSB.csproj": {
+                "projectPath": "D:\\Documents\\GSB\\GsbMission4\\TP adoNet\\GSB.csproj"
               }
             }
           }
@@ -42,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -76,15 +74,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\TP adoNet\\GSB.csproj": {
+    "D:\\Documents\\GSB\\GsbMission4\\TP adoNet\\GSB.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\TP adoNet\\GSB.csproj",
+        "projectUniqueName": "D:\\Documents\\GSB\\GsbMission4\\TP adoNet\\GSB.csproj",
         "projectName": "GSB",
-        "projectPath": "C:\\Users\\Necrogod492\\Documents\\GitHub\\GsbMission4\\TP adoNet\\GSB.csproj"
+        "projectPath": "D:\\Documents\\GSB\\GsbMission4\\TP adoNet\\GSB.csproj"
       },
       "frameworks": {
         "net472": {}

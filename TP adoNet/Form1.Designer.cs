@@ -82,7 +82,7 @@
             this.button3.TabIndex = 12;
             this.button3.Text = "mois precedant";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_click);
+            this.button3.Click += new System.EventHandler(this.button_precedant);
             // 
             // button4
             // 
@@ -92,7 +92,7 @@
             this.button4.TabIndex = 13;
             this.button4.Text = "mois suivant";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button2_Click);
+            this.button4.Click += new System.EventHandler(this.button_suivant);
             // 
             // label1
             // 
@@ -118,7 +118,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.Click += new System.EventHandler(this.button4_Click);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

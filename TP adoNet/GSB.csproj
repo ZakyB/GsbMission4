@@ -92,6 +92,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fabrique.cs" />
+    <Compile Include="FichesDao.cs" />
     <Compile Include="GestionDate.cs" />
     <Compile Include="ConnexionSql.cs" />
     <Compile Include="Form1.cs">

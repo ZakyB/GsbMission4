@@ -16,7 +16,7 @@ namespace TP_adoNet
         private string unProvider = "127.0.0.1";
         private string dataBase = "gsb";
         private string uId = "root";
-        private string mdp = "";
+        private string mdp = "root";
         private String id;
         private MySqlCommand oCom;
         private ConnexionSql maConnexion;
@@ -25,7 +25,7 @@ namespace TP_adoNet
 
         public Form1()
         {
-            maConnexion = ConnexionSql.getInstance(unProvider, dataBase, uId, mdp);
+            maConnexion = ConnexionSql.getInstance(Fabrique.ProviderMysql, Fabrique.DataBaseMysql, Fabrique.UidMysql, Fabrique.MdpMysql);
             InitializeComponent();
         }
         private DataTable GetEmploye()
@@ -110,7 +110,7 @@ namespace TP_adoNet
             }
         }
 
-        private void button3_click(object sender, EventArgs e)
+        private void button_precedant(object sender, EventArgs e)
         {
             if (!date.Equals(""))
             {
@@ -126,9 +126,10 @@ namespace TP_adoNet
                 maConnexion.closeConnection();
                 label1.Text = dateActuel;
             }
+
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button_suivant(object sender, EventArgs e)
         {
             if (!date.Equals(""))
             {
