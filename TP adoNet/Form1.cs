@@ -16,7 +16,7 @@ namespace TP_adoNet
         private string unProvider = "127.0.0.1";
         private string dataBase = "gsb";
         private string uId = "root";
-        private string mdp = "root";
+        private string mdp = "";
         private String id;
         private MySqlCommand oCom;
         private ConnexionSql maConnexion;

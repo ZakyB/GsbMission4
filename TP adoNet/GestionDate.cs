@@ -27,5 +27,16 @@ namespace TP_adoNet
             return test;
         }
 
+
+        public void updateFicheFrais(string etat, string date) {
+
+            date = getMoisPrecedant(date);
+            String req = "update ficheFrais set idEtat = '" + etat + "' where mois = '" + date + "'"; 
+            if (etat == "RB"){
+                req = req + ("AND idEtat = VA");
+            }
+            return;
+
+        }
     }
 }
