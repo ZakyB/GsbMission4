@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSBTest", "GSBTest\GSBTest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSBTickFiches", "GSBTickFiches\GSBTickFiches.csproj", "{0069177E-4958-4D0F-AB07-B56EEBCADFAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSBTestTickFiches", "GSBTestTickFiches\GSBTestTickFiches.csproj", "{2486CF23-D28A-431B-9182-F5383802756B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0069177E-4958-4D0F-AB07-B56EEBCADFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0069177E-4958-4D0F-AB07-B56EEBCADFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0069177E-4958-4D0F-AB07-B56EEBCADFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2486CF23-D28A-431B-9182-F5383802756B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2486CF23-D28A-431B-9182-F5383802756B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2486CF23-D28A-431B-9182-F5383802756B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2486CF23-D28A-431B-9182-F5383802756B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

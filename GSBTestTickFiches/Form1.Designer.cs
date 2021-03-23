@@ -96,7 +96,7 @@
             // 
             // TimerFichesCheck
             // 
-            this.TimerFichesCheck.Interval = 3600000;
+            this.TimerFichesCheck.Interval = 10000;
             this.TimerFichesCheck.Tick += new System.EventHandler(this.Timer_Tick);
             // 
             // Form1
