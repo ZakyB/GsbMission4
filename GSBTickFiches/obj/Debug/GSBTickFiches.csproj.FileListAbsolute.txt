@@ -36,3 +36,43 @@ D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Memory.xml
 D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Numerics.Vectors.xml
 D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csproj.CopyComplete
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\GSBTickFiches.exe.config
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\GSBTickFiches.exe
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\GSBTickFiches.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\Google.Protobuf.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\MySql.Data.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\Renci.SshNet.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Buffers.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Memory.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\TP adoNet.exe
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\Zstandard.Net.dll
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\TP adoNet.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\TP adoNet.exe.config
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\Google.Protobuf.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\Google.Protobuf.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\MySql.Data.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\Renci.SshNet.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Buffers.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Memory.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csprojAssemblyReference.cache
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.Form1.resources
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.Properties.Resources.resources
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csproj.GenerateResource.cache
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csproj.CoreCompileInputs.cache
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csproj.CopyComplete
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.exe
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\TP adoNet.xml
+C:\Users\etudiant\Documents\GitHub\GsbMission4\GSBTickFiches\bin\Debug\GSBTickFiches.xml

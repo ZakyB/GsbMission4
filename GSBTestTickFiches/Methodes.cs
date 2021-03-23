@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.Windows.Forms;
 
 namespace GSBTickFiches
 {
@@ -12,7 +13,12 @@ namespace GSBTickFiches
         {
             String date = Date.getMois();
             date = Date.getMoisPrecedant(date);
-            maConnexion.openConnection();
+            try
+            { maConnexion.openConnection(); }
+            catch (Exception e)
+            {
+                MessageBox.Show("Erreur de connexion !");
+            }
             String req = "update ficheFrais set idEtat = '" + etat + "' where mois = '" + date + "'";
             if (etat.Equals("CL"))
             {
@@ -24,7 +30,12 @@ namespace GSBTickFiches
             }
             oCom = maConnexion.reqExec(req);
             oCom.ExecuteNonQuery();
-            maConnexion.closeConnection();
+            try
+            { maConnexion.closeConnection(); }
+            catch (MySqlException e)
+            {
+                MessageBox.Show("Erreur de déconnexion !");
+            }
             return;
         }
     }

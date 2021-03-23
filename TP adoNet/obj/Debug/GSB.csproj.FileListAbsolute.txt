@@ -138,3 +138,4 @@ D:\Documents\GSB\GsbMission4\TP adoNet\obj\Debug\GSB.csproj.CoreCompileInputs.ca
 D:\Documents\GSB\GsbMission4\TP adoNet\obj\Debug\GSB.csproj.CopyComplete
 D:\Documents\GSB\GsbMission4\TP adoNet\obj\Debug\TP adoNet.exe
 D:\Documents\GSB\GsbMission4\TP adoNet\obj\Debug\TP adoNet.pdb
+C:\Users\etudiant\Documents\GitHub\GsbMission4\TP adoNet\bin\Debug\TP adoNet.xml

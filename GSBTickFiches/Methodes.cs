@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.Windows.Forms;
 
 namespace GSBTickFiches
 {
@@ -8,12 +9,25 @@ namespace GSBTickFiches
         private GestionDate Date = new GestionDate();
         private MySqlCommand oCom;
         private ConnexionSql maConnexion = ConnexionSql.getInstance(Fabrique.ProviderMysql, Fabrique.DataBaseMysql, Fabrique.UidMysql, Fabrique.MdpMysql);
+        /// <summary>
+        /// Methode qui fait la mise a jour des fiches
+        /// </summary>
+        /// <param name="etat"></param>
         public void updateFicheFrais(string etat)
         {
+            //Récupération du mois précédant
             String date = Date.getMois();
             date = Date.getMoisPrecedant(date);
-            maConnexion.openConnection();
+            //Ouverture de la BDD
+            try
+            { maConnexion.openConnection(); }
+            catch (MySqlException e)
+            {
+                MessageBox.Show("Erreur de connexion !");
+            }
+            //Requete UPDATE
             String req = "update ficheFrais set idEtat = '" + etat + "' where mois = '" + date + "'";
+            //Condition supplémentaire en fonction du parametre
             if (etat.Equals("CL"))
             {
                 req = req + ("AND idEtat = 'CR'");
@@ -22,9 +36,16 @@ namespace GSBTickFiches
             {
                 req = req + ("AND idEtat = 'VA'");
             }
+            //Execution de la requete
             oCom = maConnexion.reqExec(req);
             oCom.ExecuteNonQuery();
-            maConnexion.closeConnection();
+            //Fermeture de la BDD
+            try
+            { maConnexion.closeConnection(); }
+            catch (MySqlException e)
+            {
+                MessageBox.Show("Erreur de déconnexion !");
+            }
             return;
 
         }

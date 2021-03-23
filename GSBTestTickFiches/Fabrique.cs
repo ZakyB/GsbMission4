@@ -8,7 +8,7 @@
 
         private static string uidMysql = "root";
 
-        private static string mdpMysql = "root";
+        private static string mdpMysql = "";
 
         public static string ProviderMysql { get => providerMysql; }
         public static string DataBaseMysql { get => dataBaseMysql; }
