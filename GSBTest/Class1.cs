@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GSBTest
+﻿namespace GSBTest
 {
-    class Class1 
+    class Class1
     {
 
     }

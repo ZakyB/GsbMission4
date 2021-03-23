@@ -1,12 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TP_adoNet
@@ -26,11 +20,11 @@ namespace TP_adoNet
         private DataTable GetEmploye()
         {
             DataTable dt = new DataTable();
-           
+
             oCom = maConnexion.reqExec("Select * from fichefrais");
             maConnexion.openConnection();
             MySqlDataReader reader = oCom.ExecuteReader();
-           
+
             dt.Load(reader);
             /*for (int i = 0; i < reader.FieldCount; i++)
             {

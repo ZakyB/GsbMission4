@@ -1,12 +1,5 @@
 ﻿
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 namespace GSBTickFiches
 {
@@ -76,9 +69,9 @@ namespace GSBTickFiches
         private void Timer_Tick(object sender, EventArgs e)
         {
             jour = date.getJour();
-            if (tickTest==true) { methode.updateFicheFrais("CL"); tickTest = false; return; }
-            if (tickTest==false) { methode.updateFicheFrais("RB"); return; }
+            if (tickTest == true) { methode.updateFicheFrais("CL"); tickTest = false; return; }
+            if (tickTest == false) { methode.updateFicheFrais("RB"); return; }
         }
     }
-    
+
 }
