@@ -13,11 +13,6 @@ namespace TP_adoNet
 {
     public partial class Form1 : Form
     {
-        private string unProvider = "127.0.0.1";
-        private string dataBase = "gsb";
-        private string uId = "root";
-        private string mdp = "root";
-        private String id;
         private MySqlCommand oCom;
         private ConnexionSql maConnexion;
         private GestionDate date = new GestionDate();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,16 +28,11 @@ namespace TP_adoNet
             return test;
         }
 
-
-        public void updateFicheFrais(string etat, string date) {
-
-            date = getMoisPrecedant(date);
-            String req = "update ficheFrais set idEtat = '" + etat + "' where mois = '" + date + "'"; 
-            if (etat == "RB"){
-                req = req + ("AND idEtat = VA");
-            }
-            return;
-
+        public int getJour()
+        {
+            var jour = DateTime.Now;
+            var res = Int16.Parse(jour.Date.ToString("dd"));
+            return res;
         }
     }
 }

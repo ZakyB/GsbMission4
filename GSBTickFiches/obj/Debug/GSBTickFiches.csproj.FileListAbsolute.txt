@@ -1,0 +1,38 @@
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\GSBTickFiches.exe.config
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\GSBTickFiches.exe
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\GSBTickFiches.pdb
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csprojAssemblyReference.cache
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.Form1.resources
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.Properties.Resources.resources
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csproj.GenerateResource.cache
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csproj.CoreCompileInputs.cache
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.exe
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.pdb
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\BouncyCastle.Crypto.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\Google.Protobuf.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\K4os.Hash.xxHash.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\MySql.Data.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\Renci.SshNet.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Buffers.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Memory.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\TP adoNet.exe
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\Ubiety.Dns.Core.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\Zstandard.Net.dll
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\TP adoNet.pdb
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\TP adoNet.exe.config
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\Google.Protobuf.pdb
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\Google.Protobuf.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\K4os.Hash.xxHash.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\MySql.Data.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\Renci.SshNet.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Buffers.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Memory.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\GSB\GsbMission4\GSBTickFiches\obj\Debug\GSBTickFiches.csproj.CopyComplete
