@@ -30,7 +30,6 @@ namespace GSBTickFiches
             oCom.ExecuteNonQuery();
             maConnexion.closeConnection();
             return;
-
         }
     }
 }
