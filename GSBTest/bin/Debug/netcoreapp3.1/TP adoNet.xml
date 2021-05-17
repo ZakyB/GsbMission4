@@ -4,6 +4,32 @@
         <name>TP adoNet</name>
     </assembly>
     <members>
+        <member name="M:TP_adoNet.GestionDate.getMois">
+            <summary>
+            récupére le mois actuel
+            </summary>
+            <returns>retourne la date sous le format "yyyyMM"</returns>
+        </member>
+        <member name="M:TP_adoNet.GestionDate.getMoisPrecedant(System.String)">
+            <summary>
+            récupére le mois précedent
+            </summary>
+            <param name="date"></param>
+            <returns>retourne le mois précédent le mois sélectionner</returns>
+        </member>
+        <member name="M:TP_adoNet.GestionDate.getMoisSuivant(System.String)">
+            <summary>
+            récupére le mois suivant
+            </summary>
+            <param name="date"></param>
+            <returns>retourne le mois suivant le mois sélectionner</returns>
+        </member>
+        <member name="M:TP_adoNet.GestionDate.getJour">
+            <summary>
+            récupére le jour actuel
+            </summary>
+            <returns>retourne le jour actuel sous le format suivant : "dd"</returns>
+        </member>
         <member name="M:TP_adoNet.ConnexionSql.getInstance(System.String,System.String,System.String,System.String)">
             méthode de création d'une instance de connexion si elle n'existe pas (singleton)
         </member>

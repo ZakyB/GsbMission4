@@ -11,7 +11,7 @@ namespace GSBTest
         public void TestGetMois()
         {
             GestionDate obj1 = new GestionDate();
-            Assert.AreEqual("202103", obj1.getMois());
+            Assert.AreEqual("202108", obj1.getMois(),"Erreur lors de la selection du mois");
         }
         [TestMethod]
         public void TestGetMoisPrecedant()

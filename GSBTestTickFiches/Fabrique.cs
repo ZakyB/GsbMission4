@@ -2,7 +2,7 @@
 {
     class Fabrique
     {
-        private static string providerMysql = "localhost";
+        private static string providerMysql = "127.0.0.1";
 
         private static string dataBaseMysql = "gsb";
 
